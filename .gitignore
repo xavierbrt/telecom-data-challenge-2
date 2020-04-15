@@ -1,0 +1,10 @@
+*.ipynb_checkpoints
+*old
+*sujet
+*data
+*logs
+Notes.txt
+
+
+
+
