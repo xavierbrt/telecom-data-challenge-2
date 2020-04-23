@@ -10,14 +10,15 @@
  -> local anomalies, pattern anomalies, periodicity anomaly
 Transformée en ondelettes discrète
 PCA sur 3 axes puis l'afficher en 3D
-Auto-encoder
+Auto-encoder (Farid - voir cours VAE)
+FFT
 
 ## Outlier detection:
 LOF
 TNND
 gamma-NN
 DBSCAN clustering
-One Class SVM (RBF, gamma = 0,5, trade-of = 0,1)
+One Class SVM (RBF, gamma = 0,5, trade-of = 0,1) nu=0.03 ?
 Passer à des modèles semi-supervisés, avec les données les plus anormales comme étiquette = 1
 
 
