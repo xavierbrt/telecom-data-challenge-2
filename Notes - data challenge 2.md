@@ -53,9 +53,20 @@ Sequential Bayesian Filtering
 Histogramme des stats
 Calcul des dérivés
 
+
+
 ## VAE
 Normaliser avant d'utiliser l'autoencodeur !! - (z-score standardization ?)
 Sequentiel VAE LSTM moins bons scores
 Autoencoder Forest for Anomaly Detection from IoT Time Series (vidéo https://www.youtube.com/watch?v=V0r2zDhdi6c)
 
+
+flip vertical, entropy,
+Essayer différentes valeurs de rolling, essayer la PCA sans rolling aussi
+Faire tourner un algo type XGBoost sur toutes les soumissions et le score obtenu à chaque fois. Puis deviner l'impact de chaque paramètre ?
+
+Tout passer à l'autocorrélation puis à PCA
+Calcul des dérivés
+Lire mes notes en haut
+FPCA
 
